@@ -5,8 +5,8 @@
 // @description  Hides the top masthead initially and shows it when mousing over the top of the page (excluding fullscreen mode).
 // @match        https://www.youtube.com/*
 // @grant        GM_addStyle
-// @downloadURL  https://github.com/azizLIGHT/youtube-show-hide-top-bar/raw/main/YouTube-show-hide-top-header-search-bar.user.js
 // @author       azizLIGHT
+// @license MIT
 // ==/UserScript==
 
 (function() {
