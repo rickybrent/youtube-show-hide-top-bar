@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         YouTube show/hide top header search bar
-// @namespace    https://github.com/azizLIGHT/youtube-show-hide-top-bar
-// @version      1.0.1
+// @namespace   https://github.com/azizLIGHT
+// @version     1.0.2
 // @description  Hides the top masthead initially and shows it when mousing over the top of the page (excluding fullscreen mode).
 // @match        https://www.youtube.com/watch?v=*
 // @grant        GM_addStyle
 // @author       azizLIGHT
+// @homepageURL https://github.com/azizLIGHT/youtube-show-hide-top-bar
+// @supportURL  https://github.com/azizLIGHT/youtube-show-hide-top-bar/issues
 // @license MIT
 // ==/UserScript==
 
