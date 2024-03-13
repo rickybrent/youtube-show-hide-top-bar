@@ -20,7 +20,7 @@
         var mastheadContainer = document.getElementById('masthead-container');
         mastheadContainer.style.display = 'none';
 
-        var header = document.querySelector('div.ytd-app:nth-child(7)');
+        var header = document.querySelector('ytd-app');
         header.style.transitionDuration = isLeavingFullscreen ? '0s' : '0.3s';
         header.style.marginTop = isFullscreen ? '0' : '-50px';
     }
@@ -29,7 +29,7 @@
         var mastheadContainer = document.getElementById('masthead-container');
         mastheadContainer.style.display = ''; // Restores the default display property
 
-        var header = document.querySelector('div.ytd-app:nth-child(7)');
+        var header = document.querySelector('ytd-app');
         header.style.transitionDuration = '0.3s';
         header.style.marginTop = ''; // Resets the margin-top property
     }
@@ -76,7 +76,7 @@
 
     // Add CSS for smooth transition
     var css = `
-        div.ytd-app:nth-child(7) {
+        ytd-app {
             transition: margin-top 0.3s ease;
         }
     `;
