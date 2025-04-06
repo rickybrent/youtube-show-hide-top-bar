@@ -25,6 +25,11 @@
         var header = document.querySelector('ytd-app');
         header.style.transitionDuration = isLeavingFullscreen ? '0s' : '0.3s';
         header.style.marginTop = isFullscreen ? '0' : '-50px';
+
+        var chat = document.getElementById('chat');
+        if (chat) {
+            chat.style.top = "0px";
+       }
     }
 
     function showTop() {
@@ -34,6 +39,11 @@
         var header = document.querySelector('ytd-app');
         header.style.transitionDuration = '0.3s';
         header.style.marginTop = ''; // Resets the margin-top property
+
+        var chat = document.getElementById('chat');
+        if (chat) {
+            chat.style.top = "";
+        }
     }
 
     function checkFullscreen() {
